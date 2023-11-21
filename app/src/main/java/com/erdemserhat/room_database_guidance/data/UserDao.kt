@@ -14,4 +14,12 @@ interface UserDao {
 
     @Query("SELECT * FROM user_table ORDER BY id ASC") //-> Order by id ascending order
     fun readAllData():LiveData<List<User>>
+
+
+
+
+
+
+
+
 }
