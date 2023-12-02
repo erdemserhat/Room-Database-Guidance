@@ -1,13 +1,12 @@
 # Room Database
 
--Room Database is built on the top of SQLite
+- Room Database is built on the top of SQLite
 
-->Pros
--Compile time verification of SQL queries.
--Less boilerplate code
--Easily integrated with other components.
-
-There are 3 main components in the Room Database
+## Pros
+- Compile time verification of SQL queries.
+- Less boilerplate code
+- Easily integrated with other components.
+## There are 3 main components in the Room Database
 a) @Entity
 b) @Dao
 c) @Database

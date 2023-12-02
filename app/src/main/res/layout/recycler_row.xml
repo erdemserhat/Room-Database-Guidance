@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/recycler_row_background"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/orderId"
+        android:textSize="35sp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1." />
+
+    <TextView
+        android:id="@+id/recyclerviewFirstNameTV"
+        android:layout_width="wrap_content"
+        android:textSize="35sp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Serhat">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/recyclerviewLastNameTV"
+        android:layout_width="wrap_content"
+        android:textSize="35sp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Erdem">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/recyclerviewAgeTV"
+        android:layout_width="wrap_content"
+        android:textSize="35sp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="22">
+
+    </TextView>
+
+</LinearLayout>
