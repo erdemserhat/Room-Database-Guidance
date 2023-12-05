@@ -1,6 +1,8 @@
-package com.erdemserhat.room_database_guidance.data
+package com.erdemserhat.room_database_guidance.data.repository
 
 import androidx.lifecycle.LiveData
+import com.erdemserhat.room_database_guidance.data.model.User
+import com.erdemserhat.room_database_guidance.data.UserDao
 
 class UserRepository ( private val userDao: UserDao) {
     /**
@@ -12,7 +14,11 @@ class UserRepository ( private val userDao: UserDao) {
 
     val readAllData:LiveData<List<User>> = userDao.readAllData()
 
-    suspend fun addUser(user:User){
+     suspend fun addUser(user: User){
         userDao.addUser(user)
+    }
+
+    suspend fun updateUser(user: User){
+        userDao.updateUser(user)
     }
 }

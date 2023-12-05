@@ -7,12 +7,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.erdemserhat.room_database_guidance.R
-import com.erdemserhat.room_database_guidance.data.User
-import com.erdemserhat.room_database_guidance.data.UserViewModel
+import com.erdemserhat.room_database_guidance.data.model.User
+import com.erdemserhat.room_database_guidance.viewmodel.UserViewModel
 import com.erdemserhat.room_database_guidance.databinding.FragmentAddBinding
 
 class AddFragment : Fragment() {

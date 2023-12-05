@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.update.UpdateFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editFirstNameET"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editLastName"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editAgeET"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:hint="@string/age">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Upload"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:id="@+id/uploadButton"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
